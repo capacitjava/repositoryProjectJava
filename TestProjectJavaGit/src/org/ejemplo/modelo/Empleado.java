@@ -1,9 +1,12 @@
 package org.ejemplo.modelo;
 
+//SE CREO LA CLASE EMPLEADO
 public class Empleado {
 	
 	private int id;
 	private String nombre;
+	
+	//SE AGREGO UNA NUEVA ANOTACION
 	private String apepat;
 	
 	public int getId() {
