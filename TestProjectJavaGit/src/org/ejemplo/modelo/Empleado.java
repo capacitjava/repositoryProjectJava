@@ -4,6 +4,7 @@ public class Empleado {
 	
 	private int id;
 	private String nombre;
+	private String apepat;
 	
 	public int getId() {
 		return id;
@@ -16,6 +17,12 @@ public class Empleado {
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+	public String getApepat() {
+		return apepat;
+	}
+	public void setApepat(String apepat) {
+		this.apepat = apepat;
 	}
 
 }
